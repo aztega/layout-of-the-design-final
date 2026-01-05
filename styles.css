@@ -206,7 +206,6 @@ input[type=email], input[type=tel]:hover {
 }
 
 .radios {
-  font-size: 9px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -220,6 +219,13 @@ input[type=email], input[type=tel]:hover {
 
 .radios label {
   margin-bottom: 20px;
+   font-size: 9px;
+}
+
+.radios input[type=radio]{
+  width: 9px;
+  margin-bottom: 20px;
+  
 }
 
 .terms {

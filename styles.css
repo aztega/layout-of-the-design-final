@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: barlow;
 }
 
 #login {
@@ -47,9 +47,10 @@ form {
 }
 
 .form-header h1 {
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 17px;
   margin-bottom: 10px;
-  color: #7B8A92;
+  color: #5e6467;
 }
 
 .form-header p {
@@ -198,35 +199,33 @@ input[type=email], input[type=tel]:hover {
 .investor-text p:first-child{
   font-size: 13px;
   margin-bottom: 8px;
+  color: rgb(51, 50, 50);
 }
 
 .investor-text p:last-child {
   font-size: 9px;
-  margin-bottom: 17px;
+  margin-bottom: 30px;
 }
 
 .radios {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 10px;
-  position: relative;
-  margin-bottom: 40px;
+  gap: 70px;
+   position: relative;
+   margin-bottom: 50px;
 }
 
 .radios label {
-  margin-bottom: 20px;
    font-size: 9px;
+    position: absolute;
+    top: 3px;
+    margin-left: 8px;
 }
 
-.radios input[type=radio]{
-  width: 9px;
-  margin-bottom: 20px;
-  
+.radios input {
+  width: 10px;
 }
+
 
 .terms {
   display: flex;

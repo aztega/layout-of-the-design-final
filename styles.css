@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#login {
+  margin: 100px auto;
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.left-image {
+  position: relative;
+}
+
+.left-image img {
+ width: 500px;
+  display: flex;
+}
+
+.left-image .logo-iintoo img {
+  width: 80px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+form {
+  max-width: 450px;
+  height: auto;
+  margin-top: 60px;
+  padding: 20px;
+  margin-right: 30px;
+  display: inline-block;
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ flex-wrap: wrap;
+ display: inline;
+}
+
+.form-header h1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #7B8A92;
+}
+
+.form-header p {
+  font-size: 10px;
+  margin-bottom: 30px;
+  color: #7B8A92;
+  
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  height: 25px;
+}
+
+.fb {
+  position: relative;
+}
+
+.fb img {
+  width: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  top: 9px;
+  left: 7px;
+}
+
+.btn .facebook-btn {
+  width: 160px;
+  font-size: 10px;
+  background-color: #255A9B;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border: 0px;
+}
+
+.btn .linkedin-btn {
+  width: 160px;
+  font-size: 10px;
+  background-color: #0076B6;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border: 0px;
+}
+
+p {
+  font-size: 10px;
+  color: #7B8A92;
+}
+
+.lin {
+  position: relative;
+}
+
+.lin img {
+  width: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+margin-bottom: 30px;
+align-items: center;
+}
+
+.option p {
+  font-size: 7px;
+}
+
+.option:before {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  content: "";
+  border-top: solid #7B8A92 1px;
+  width: 70px;
+  gap: 3px;
+}
+
+.option:after {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  content: "";
+  border-top: solid #7B8A92 1px;
+  width: 70px;
+}
+
+.input-field {
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  height: 25px;
+  position: relative;
+    color: #afafaf;
+}
+
+
+input[type=email], input[type=tel] {
+  display: flex;
+  width: 160px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: inline;
+  font-size: 11px;
+  margin-bottom: 40px;
+  height: 40px;
+  border: solid #AFAFAF 1px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.input-field label {
+  font-size: 10px;
+  color: #afafaf;
+  position: absolute;
+  top: 8px;
+  padding-left: 10px;
+}
+
+input[type=email], input[type=tel]:hover {
+  border-left: solid 2px #2A4A5C;
+}
+
+.investor-text p:first-child{
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.investor-text p:last-child {
+  font-size: 9px;
+  margin-bottom: 17px;
+}
+
+.radios {
+  font-size: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.radios label {
+  margin-bottom: 20px;
+}
+
+.terms {
+  display: flex;
+  justify-content:  flex-start;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.terms label {
+  font-size: 7px;
+}
+
+.terms input[type=checkbox]{
+  width: 7px;
+}
+
+.create-account {
+  width: 160px;
+  height: 25px;
+  background-color: #0e96df;
+  padding: 10px 10px 10px 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iintoo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="login">
+      <div class="left-image">
+        <img src="./img/bg.jpg" alt="abstract-tech-background" />
+        <div class="logo-iintoo">
+          <img src="./img/logo.svg" alt="iintoo-logo" />
+        </div>
+      </div>
+      <form>
+        <div class="form-header">
+          <h1>Get iintoo it today</h1>
+          <p>There is no charge or obligation upon registration</p>
+          <div class="btn">
+            <div class="fb">
+              <img src="./img/facebook.svg" alt="facebook-svg" />
+              <button type="submit" class="facebook-btn">
+                Register with Facebook
+              </button>
+            </div>
+            <div class="lin">
+              <img src="./img/linkedin.svg" alt="linkedin-svg" />
+              <button type="submit" class="linkedin-btn">
+                Register with LinkedIn
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="option">
+          <p>OR</p>
+        </div>
+        <div class="input-field">
+          <div class="input-field-email">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="input-field-phone">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" />
+          </div>
+        </div>
+        <div class="investor-text">
+          <p>What type of investor are you?</p>
+          <p>Select the type of invester you are below</p>
+        </div>
+        <div class="radios">
+          <div class="individual">
+            <input type="radio" name="investor" id="individual" />
+            <label for="individual">Individual</label>
+          </div>
+
+          <div class="business">
+            <input type="radio" name="investor" id="business" />
+            <label for="business">Business</label>
+          </div>
+
+          <div class="ira">
+            <input type="radio" name="investor" id="ira" />
+            <label for="ira">IRA</label>
+          </div>
+
+          <div class="trust">
+            <input type="radio" name="investor" id="trust" />
+            <label for="trust">Trust</label>
+          </div>
+        </div>
+
+        <div class="terms">
+          <input type="checkbox" id="terms" />
+          <label for="terms">
+            I agre to the terms and receiving notifications from iintoo
+            <a href=".">View full terms</a></label
+          >
+        </div>
+        <button class="create-account" type="submit">Create Account</button>
+      </form>
+    </main>
+  </body>
+</html>

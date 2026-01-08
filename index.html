@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iintoo</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <main id="login">
@@ -60,7 +54,7 @@
         <div class="radios">
           <div class="individual">
             <input type="radio" name="investor" id="individual" checked />
-            <label for="individual">Individual</label>
+            <label for="individual">Individual<span>&#9432;</span></label>
             <div class="individual-info">
               <p>
                 I am a natural person investing on my own behalf, as a sole
@@ -71,7 +65,7 @@
 
           <div class="business">
             <input type="radio" name="investor" id="business" />
-            <label for="business">Business</label>
+            <label for="business">Business<span>&#9432;</span></label>
             <div class="business-info">
               <p>We are a business investing on our own behalf.</p>
             </div>
@@ -79,12 +73,24 @@
 
           <div class="ira">
             <input type="radio" name="investor" id="ira" />
-            <label for="ira">IRA</label>
+            <label for="ira">IRA<span>&#9432;</span></label>
+            <div class="ira-info">
+              <p>
+                An individual retirement account (IRA) allows you to save money
+                for retirement in a tax-advantaged way.
+              </p>
+            </div>
           </div>
 
           <div class="trust">
             <input type="radio" name="investor" id="trust" />
-            <label for="trust">Trust</label>
+            <label for="trust">Trust<span>&#9432;</span></label>
+            <div class="trust-info">
+              <p>
+                A public limited company that aims to make money by investing in
+                other companies.
+              </p>
+            </div>
           </div>
         </div>
 

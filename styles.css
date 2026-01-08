@@ -42,7 +42,7 @@ form {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 450;
   font-size: 17px;
   margin-bottom: 10px;
   color: #5e6467;
@@ -233,6 +233,13 @@ input[type=email], input[type=tel]:hover {
   vertical-align: top;
 }
 
+span {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 7px;
+   color: #afafaf;
+}
+
 .individual {
   position: relative;
 }
@@ -245,13 +252,16 @@ input[type=email], input[type=tel]:hover {
   font-size: 7px;
   position: absolute;
   left: 0px;
+}
+
+.individual-info {
   display: none;
 }
 
-.individual:hover + .individual-info p{
+.individual:hover .individual-info {
   display: block;
-  cursor: pointer;
 }
+
 
 .business-info p {
    width: 160px;
@@ -261,11 +271,54 @@ input[type=email], input[type=tel]:hover {
   font-size: 7px;
   position: absolute;
   left: 80px;
-  display: none;
-
 }
 
-.radios:hover + .business-info p{
+.business-info {
+  display: none;
+}
+
+.business:hover  .business-info {
+  display: block;
+}
+
+.ira-info p {
+ width: 160px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.0), 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 7px;
+  position: absolute;
+  left: 160px;
+}
+
+.ira-info {
+  display: none;
+}
+
+.ira:hover .ira-info {
+  display: block;
+}
+
+.trust {
+  position: relative;
+}
+
+.trust-info p {
+ width: 160px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.0), 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 7px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.trust-info {
+  display: none;
+}
+
+.trust:hover  .trust-info {
   display: block;
 }
 

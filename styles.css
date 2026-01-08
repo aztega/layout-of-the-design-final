@@ -215,33 +215,57 @@ input[type=email], input[type=tel]:hover {
 
 .radios {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 70px;
+  gap: 40px;
    position: relative;
-   margin-bottom: 10px;
-}
-
-.radios label {
+   margin-bottom: 60px;
    font-size: 9px;
-    position: absolute;
-    top: 3px;
-    margin-left: 8px;
 }
 
 .radios input {
   width: 10px;
+  margin-right: 5px;
 }
 
-.information p{
+.radios label {
+  vertical-align: top;
+}
+
+.individual {
+  position: relative;
+}
+
+.individual-info p {
  width: 160px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.0), 0 2px 8px 0 rgba(0, 0, 0, 0.10);
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 7px;
+  position: absolute;
+  left: 0px;
   display: none;
 }
 
-.radios:hover + .information p{
+.individual:hover + .individual-info p{
+  display: block;
+  cursor: pointer;
+}
+
+.business-info p {
+   width: 160px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.0), 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 7px;
+  position: absolute;
+  left: 80px;
+  display: none;
+
+}
+
+.radios:hover + .business-info p{
   display: block;
 }
 
@@ -250,7 +274,7 @@ input[type=email], input[type=tel]:hover {
   justify-content:  flex-start;
   gap: 10px;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .terms label {

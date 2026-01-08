@@ -225,9 +225,10 @@ input[type=email], input[type=tel]:hover {
 }
 
 .radios input {
-  width: 10px;
-  margin-right: 5px;
+  width: 9px;
+  margin-right: 2px;
 }
+
 
 .radios label {
   vertical-align: top;
@@ -256,6 +257,10 @@ span {
 
 .individual-info {
   display: none;
+}
+
+.individual label:hover, .business label:hover, .ira label:hover, .trust label:hover {
+  cursor: pointer;
 }
 
 .individual:hover .individual-info {
